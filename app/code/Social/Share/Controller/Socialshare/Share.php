@@ -1,10 +1,9 @@
 <?php
-
-namespace Social\Share\Controller\Socilalshare;
+namespace Social\Share\Controller\Socialshare;
 
 class Share extends \Magento\Backend\App\Action
 {
     public function execute(){
-       // echo "Sscsccbjb";
+       echo "Share here";
     }
 }
