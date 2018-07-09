@@ -1,0 +1,16 @@
+<?php
+//print page url
+echo "The page URL is : ";
+echo $this->getUrl('*/*/*', ['_current' => true, '_use_rewrite' => true]);
+echo '<br>';
+//print base url
+echo "The base URL is : ";
+echo $block->getBaseUrl();
+echo '<br>';
+//print media url
+echo "The media URL is : ";
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$fileSystem = $objectManager->create('\Magento\Framework\Filesystem');
+$mediaPath = $fileSystem->getDirectoryRead(\Magento\Framework\App\Filesystem\DirectoryList::MEDIA)->getAbsolutePath();
+echo $mediaPath;
+echo '<br>';

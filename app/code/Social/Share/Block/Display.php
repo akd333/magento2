@@ -9,6 +9,6 @@ class Display extends \Magento\Framework\View\Element\Template
 
 	public function socialShare()
 	{
-		return __('Hello World');
+		return __("This is block content... !");
 	}
 }
