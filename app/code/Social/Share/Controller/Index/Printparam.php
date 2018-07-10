@@ -1,7 +1,6 @@
 <?php
 namespace Social\Share\Controller\Index;
-
-class Index extends \Magento\Framework\App\Action\Action
+class Printparam extends \Magento\Framework\App\Action\Action
 {
     public function __construct(\Magento\Framework\App\Action\Context $context)
     {
@@ -10,12 +9,8 @@ class Index extends \Magento\Framework\App\Action\Action
 
     public function execute()
     {   
-        echo 'This is Controller!';
+        echo 'Pass parameters in the URL!';
         echo '<br>';
-        //print helper function
-        $this->_objectManager->create('Social\Share\Helper\Data')->HelperFunc();
-        //redirect to contact page
-        //$this->_redirect('contact');
         echo '<br>Your ID is : ';
         echo $id = $this->getRequest ()->getParam ( 'id' );
         echo '<br>Your name is : ';

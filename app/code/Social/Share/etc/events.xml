@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="magento_event_display">
+        <observer name="observer_display_test" instance="Social\Share\Observer\Triggerevent" />
+    </event>
+</config>
