@@ -10,6 +10,6 @@ class Event extends \Magento\Framework\App\Action\Action
 
     public function execute()
     {   
-        echo $this->_eventManager->dispatch('magento_event_display');
+        $this->_eventManager->dispatch('magento_event_display_test');
     }
 }

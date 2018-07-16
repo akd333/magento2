@@ -1,6 +1,19 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
-    <event name="magento_event_display">
+    <event name="magento_event_display_test">
         <observer name="observer_display_test" instance="Social\Share\Observer\Triggerevent" />
     </event>
+    <event name="customer_login">
+        <observer name="observer_customer_login_name" instance="Social\Share\Observer\LoginEventName" />
+    </event>
+    <event name="customer_logout">
+        <observer name="observer_customer_logout_name" instance="Social\Share\Observer\LogoutEventName" />
+    </event>
+    <event name="checkout_onepage_controller_success_action">
+        <observer name="observer_customer_order_success" instance="Social\Share\Observer\PlaceOrderEvent" />
+    </event>
+    <event name="catalog_product_save_before">
+        <observer name="observer_admin_product_save" instance="Social\Share\Observer\ProductSaveBackendEvent" />
+    </event>
 </config>
+ 
