@@ -36,6 +36,6 @@ class ModelTest extends Action
         // Get sample collection
         $sampleCollection = $sampleModel->getCollection();
         // Load all data of collection
-        var_dump($sampleCollection->getData());
+        print_r($sampleCollection->getData());
     }
 }

@@ -11,6 +11,6 @@ class Sample extends AbstractDb
      */
     protected function _construct()
     {
-        $this->_init('newtable', 'id');
+        $this->_init('new_table', 'entity_id');
     }
 }

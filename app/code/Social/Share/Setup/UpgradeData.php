@@ -14,29 +14,24 @@ class UpgradeData implements UpgradeDataInterface
     ) {
         $setup->startSetup();
   
-        if (version_compare($context->getVersion(), '1.0.1') < 0) {
+        if (version_compare($context->getVersion(), '1.0.7') < 0) {
             // Get emipro_sampletable table
-            $tableName = $setup->getTable('newtable');
+            $tableName = $setup->getTable('new_table');
             // Check if the table already exists
             if ($setup->getConnection()->isTableExists($tableName) == true) {
                 // Declare data
                 $data = [
-                    [
-                        'title' => 'Sample Title 1',
-                        'description' => 'Sample description',
-                        'status' => 1
-                    ],
-                    [
-                        'title' => 'Sample Title 2',
-                        'description' => 'Sample description',
-                        'status' => 1
-                    ]
+                        'name' => 'Ashish',
+                        'title' => 'Dhar',
+                        'email' => 'ashish.dhar@conversionbug.com'
                 ];
   
                 // Insert data to table
-                foreach ($data as $item) {
-                    $setup->getConnection()->insert($tableName, $item);
-                }
+                // foreach ($data as $item) {
+                //     $setup->getConnection()->update($tableName, $item);
+                // }
+                $setup->getConnection()->update($tableName,$data, 'entity_id IN (1)');
+                //$setup->getConnection()->delete($tableName, 'entity_id IN (15)');
             }
         }
   
