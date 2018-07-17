@@ -1,0 +1,1 @@
+/var/www/html/magento2s/vendor/magento/module-catalog/view/adminhtml/web/js/components/new-category.js

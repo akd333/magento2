@@ -1,0 +1,155 @@
+[2018-06-29 10:47:47] main.CRITICAL: Unable to send mail.  {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/module-email/Model/Transport.php:104, Zend_Mail_Transport_Exception(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/zendframework1/library/Zend/Mail/Transport/Sendmail.php:111)"} []
+[2018-06-29 10:49:58] main.CRITICAL: Unable to send mail.  {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/module-email/Model/Transport.php:104, Zend_Mail_Transport_Exception(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/zendframework1/library/Zend/Mail/Transport/Sendmail.php:111)"} []
+[2018-07-02 05:37:52] main.CRITICAL: Unable to send mail.  {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/module-email/Model/Transport.php:104, Zend_Mail_Transport_Exception(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/zendframework1/library/Zend/Mail/Transport/Sendmail.php:111)"} []
+[2018-07-02 05:50:23] main.CRITICAL: Unable to send mail.  {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/module-email/Model/Transport.php:104, Zend_Mail_Transport_Exception(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/zendframework1/library/Zend/Mail/Transport/Sendmail.php:111)"} []
+[2018-07-03 08:51:42] main.CRITICAL: Class Magento\Indexer\Model\ResourceModel\Indexer\State\CollectionFactory does not exist {"exception":"[object] (ReflectionException(code: 0): Class Magento\\Indexer\\Model\\ResourceModel\\Indexer\\State\\CollectionFactory does not exist at /var/www/html/magento2s/vendor/magento/framework/Code/Reader/ClassReader.php:37, ReflectionException(code: 0): Class Magento\\Indexer\\Model\\ResourceModel\\Indexer\\State\\CollectionFactory does not exist at /var/www/html/magento2s/vendor/magento/framework/Code/Reader/ClassReader.php:29, RuntimeException(code: 0): Can't create directory /var/www/html/magento2s/generated/code/Magento/Indexer/Model/ResourceModel/Indexer/State/. in [Magento\\Indexer\\Model\\ResourceModel\\Indexer\\State\\CollectionFactory] at /var/www/html/magento2s/vendor/magento/framework/Code/Generator.php:115)"} []
+[2018-07-04 07:05:32] main.CRITICAL: Unable to send mail.  {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/module-email/Model/Transport.php:104, Zend_Mail_Transport_Exception(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/zendframework1/library/Zend/Mail/Transport/Sendmail.php:111)"} []
+[2018-07-04 13:46:06] main.CRITICAL: Element 'referenceBlock': This element is not expected. Expected is one of ( updater, item ).
+Line: 740
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'referenceBlock': This element is not expected. Expected is one of ( updater, item ).
+Line: 740
+ at /var/www/html/magento2s/vendor/magento/framework/Config/Dom.php:396)"} []
+[2018-07-04 13:53:45] main.CRITICAL: Element 'body': This element is not expected. Expected is ( item ).
+Line: 742
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'body': This element is not expected. Expected is ( item ).
+Line: 742
+ at /var/www/html/magento2s/vendor/magento/framework/Config/Dom.php:396)"} []
+[2018-07-04 13:54:11] main.CRITICAL: Element 'referenceBlock': This element is not expected. Expected is ( item ).
+Line: 742
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'referenceBlock': This element is not expected. Expected is ( item ).
+Line: 742
+ at /var/www/html/magento2s/vendor/magento/framework/Config/Dom.php:396)"} []
+[2018-07-04 13:54:18] main.CRITICAL: Element 'referenceBlock': This element is not expected. Expected is ( item ).
+Line: 742
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'referenceBlock': This element is not expected. Expected is ( item ).
+Line: 742
+ at /var/www/html/magento2s/vendor/magento/framework/Config/Dom.php:396)"} []
+[2018-07-04 13:55:44] main.CRITICAL: Element 'referenceBlock': This element is not expected. Expected is ( item ).
+Line: 742
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'referenceBlock': This element is not expected. Expected is ( item ).
+Line: 742
+ at /var/www/html/magento2s/vendor/magento/framework/Config/Dom.php:396)"} []
+[2018-07-04 13:56:35] main.CRITICAL: Element 'item': The type definition is abstract.
+Line: 742
+
+Element 'item': The type definition is abstract.
+Line: 743
+
+Element 'item': The type definition is abstract.
+Line: 744
+
+Internal error: xmlSchemaXPathProcessHistory, The state object to be removed is not the first in the list.
+Line: 738
+
+Internal error: xmlSchemaValidateChildElem, calling xmlRegExecPushString2().
+Line: 752
+
+Internal error: xmlSchemaValidateElem, calling xmlSchemaStreamValidateChildElement().
+Line: 752
+
+Internal error: xmlSchemaDocWalk, calling xmlSchemaValidateElem().
+Line: 752
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'item': The type definition is abstract.
+Line: 742
+
+Element 'item': The type definition is abstract.
+Line: 743
+
+Element 'item': The type definition is abstract.
+Line: 744
+
+Internal error: xmlSchemaXPathProcessHistory, The state object to be removed is not the first in the list.
+Line: 738
+
+Internal error: xmlSchemaValidateChildElem, calling xmlRegExecPushString2().
+Line: 752
+
+Internal error: xmlSchemaValidateElem, calling xmlSchemaStreamValidateChildElement().
+Line: 752
+
+Internal error: xmlSchemaDocWalk, calling xmlSchemaValidateElem().
+Line: 752
+ at /var/www/html/magento2s/vendor/magento/framework/Config/Dom.php:396)"} []
+[2018-07-04 13:58:07] main.CRITICAL: Theme layout update file '/var/www/html/magento2s/app/design/frontend/store1/theme1/Magento_Catalog/layout/default.xml' is not valid.
+Opening and ending tag mismatch: item line 15 and argument
+ Line: 22
+expected '>'
+ Line: 23
+Opening and ending tag mismatch: arguments line 13 and block
+ Line: 24
+Opening and ending tag mismatch: block line 12 and container
+ Line: 25
+Opening and ending tag mismatch: container line 11 and referenceContainer
+ Line: 26
+Opening and ending tag mismatch: referenceContainer line 10 and body
+ Line: 27
+Opening and ending tag mismatch: body line 9 and page
+ Line: 28
+Premature end of data in tag page line 8
+ Line: 29 {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Theme layout update file '/var/www/html/magento2s/app/design/frontend/store1/theme1/Magento_Catalog/layout/default.xml' is not valid.
+Opening and ending tag mismatch: item line 15 and argument
+ Line: 22
+expected '>'
+ Line: 23
+Opening and ending tag mismatch: arguments line 13 and block
+ Line: 24
+Opening and ending tag mismatch: block line 12 and container
+ Line: 25
+Opening and ending tag mismatch: container line 11 and referenceContainer
+ Line: 26
+Opening and ending tag mismatch: referenceContainer line 10 and body
+ Line: 27
+Opening and ending tag mismatch: body line 9 and page
+ Line: 28
+Premature end of data in tag page line 8
+ Line: 29 at /var/www/html/magento2s/vendor/magento/framework/View/Model/Layout/Merge.php:728)"} []
+[2018-07-04 13:58:35] main.CRITICAL: Element 'item': The type definition is abstract.
+Line: 742
+
+Element 'item': The type definition is abstract.
+Line: 743
+
+Element 'item': The type definition is abstract.
+Line: 744
+
+Internal error: xmlSchemaXPathProcessHistory, The state object to be removed is not the first in the list.
+Line: 738
+
+Internal error: xmlSchemaValidateChildElem, calling xmlRegExecPushString2().
+Line: 752
+
+Internal error: xmlSchemaValidateElem, calling xmlSchemaStreamValidateChildElement().
+Line: 752
+
+Internal error: xmlSchemaDocWalk, calling xmlSchemaValidateElem().
+Line: 752
+ {"exception":"[object] (Magento\\Framework\\Config\\Dom\\ValidationException(code: 0): Element 'item': The type definition is abstract.
+Line: 742
+
+Element 'item': The type definition is abstract.
+Line: 743
+
+Element 'item': The type definition is abstract.
+Line: 744
+
+Internal error: xmlSchemaXPathProcessHistory, The state object to be removed is not the first in the list.
+Line: 738
+
+Internal error: xmlSchemaValidateChildElem, calling xmlRegExecPushString2().
+Line: 752
+
+Internal error: xmlSchemaValidateElem, calling xmlSchemaStreamValidateChildElement().
+Line: 752
+
+Internal error: xmlSchemaDocWalk, calling xmlSchemaValidateElem().
+Line: 752
+ at /var/www/html/magento2s/vendor/magento/framework/Config/Dom.php:396)"} []
+[2018-07-12 06:23:20] main.CRITICAL: Unable to send mail.  {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/module-email/Model/Transport.php:104, Zend_Mail_Transport_Exception(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/zendframework1/library/Zend/Mail/Transport/Sendmail.php:111)"} []
+[2018-07-12 06:23:20] main.CRITICAL: Unable to send mail.  {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/module-email/Model/Transport.php:104, Zend_Mail_Transport_Exception(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/zendframework1/library/Zend/Mail/Transport/Sendmail.php:111)"} []
+[2018-07-12 07:54:52] main.CRITICAL: Unable to send mail.  {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/module-email/Model/Transport.php:104, Zend_Mail_Transport_Exception(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/zendframework1/library/Zend/Mail/Transport/Sendmail.php:111)"} []
+[2018-07-13 08:01:52] main.CRITICAL: Notice: Undefined property: Social\Share\Observer\ProductSaveBackendEvent::$_messageManager in /var/www/html/magento2s/app/code/Social/Share/Observer/ProductSaveBackendEvent.php on line 20 {"exception":"[object] (Exception(code: 0): Notice: Undefined property: Social\\Share\\Observer\\ProductSaveBackendEvent::$_messageManager in /var/www/html/magento2s/app/code/Social/Share/Observer/ProductSaveBackendEvent.php on line 20 at /var/www/html/magento2s/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2018-07-13 09:02:39] main.CRITICAL: Notice: Undefined property: Social\Share\Observer\ProductSaveBackendEvent::$_messageManager in /var/www/html/magento2s/app/code/Social/Share/Observer/ProductSaveBackendEvent.php on line 23 {"exception":"[object] (Exception(code: 0): Notice: Undefined property: Social\\Share\\Observer\\ProductSaveBackendEvent::$_messageManager in /var/www/html/magento2s/app/code/Social/Share/Observer/ProductSaveBackendEvent.php on line 23 at /var/www/html/magento2s/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2018-07-13 09:06:34] main.CRITICAL: Notice: Undefined property: Social\Share\Observer\ProductSaveBackendEvent::$_messageManager in /var/www/html/magento2s/app/code/Social/Share/Observer/ProductSaveBackendEvent.php on line 23 {"exception":"[object] (Exception(code: 0): Notice: Undefined property: Social\\Share\\Observer\\ProductSaveBackendEvent::$_messageManager in /var/www/html/magento2s/app/code/Social/Share/Observer/ProductSaveBackendEvent.php on line 23 at /var/www/html/magento2s/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2018-07-13 09:15:31] main.CRITICAL: Notice: Undefined property: Social\Share\Observer\ProductSaveBackendEvent::$_messageManager in /var/www/html/magento2s/app/code/Social/Share/Observer/ProductSaveBackendEvent.php on line 24 {"exception":"[object] (Exception(code: 0): Notice: Undefined property: Social\\Share\\Observer\\ProductSaveBackendEvent::$_messageManager in /var/www/html/magento2s/app/code/Social/Share/Observer/ProductSaveBackendEvent.php on line 24 at /var/www/html/magento2s/vendor/magento/framework/App/ErrorHandler.php:61)"} []
+[2018-07-17 05:59:25] main.CRITICAL: Unable to send mail.  {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/module-email/Model/Transport.php:104, Zend_Mail_Transport_Exception(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/zendframework1/library/Zend/Mail/Transport/Sendmail.php:111)"} []
+[2018-07-17 06:04:22] main.CRITICAL: Unable to send mail.  {"exception":"[object] (Magento\\Framework\\Exception\\MailException(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/module-email/Model/Transport.php:104, Zend_Mail_Transport_Exception(code: 0): Unable to send mail.  at /var/www/html/magento2s/vendor/magento/zendframework1/library/Zend/Mail/Transport/Sendmail.php:111)"} []

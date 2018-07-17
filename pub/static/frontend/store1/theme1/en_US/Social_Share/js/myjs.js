@@ -1,0 +1,1 @@
+/var/www/html/magento2s/app/code/Social/Share/view/frontend/web/js/myjs.js
