@@ -1,1 +1,0 @@
-/var/www/html/magento2s/lib/web/tiny_mce/tiny_mce_src.js

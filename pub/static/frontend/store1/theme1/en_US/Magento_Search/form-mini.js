@@ -1,1 +1,0 @@
-/var/www/html/magento2s/vendor/magento/module-search/view/frontend/web/form-mini.js

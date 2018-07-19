@@ -1,0 +1,7 @@
+<?php
+echo "<h2>Product List</h2>";
+$productCollection = $block->getProductCollection();
+foreach ($productCollection as $product) {
+    echo '<a href='.$product->getProductUrl().'>'.$product->getName().'</a>';
+    echo "<br>";     
+}

@@ -1,1 +1,0 @@
-/var/www/html/magento2s/vendor/magento/module-product-video/view/frontend/web/js/load-player.js

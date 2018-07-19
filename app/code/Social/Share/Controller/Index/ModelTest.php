@@ -30,12 +30,28 @@ class ModelTest extends Action
         $sampleModel = $this->_modelSampleFactory->create();
   
         // Load the item with ID is 1
-        //$item = $sampleModel->load(1);
-        //var_dump($item->getData());
-  
+        $item = $sampleModel->load(1);
+        var_dump($item->getData());
+        echo "<br>";
+        //$sampleModel->setData('entity_id', '');
+        $sampleModel->setName('Sreekr');
+        $sampleModel->setTitle('Reddy');
+        $sampleModel->setEmail('something@example.com');
+        $sampleModel->save();
+        $this->messageManager->addSuccess(__('Success'));
+        try {
+            $sampleModel = $this->_sampleFactory->create();
+            $sampleModel->load(25);
+            $sampleModel->delete();
+            $sampleModel->save();
+        } catch (\Exception $e) {
+            $this->messageManager->addError($e->getMessage());
+        }
         // Get sample collection
         $sampleCollection = $sampleModel->getCollection();
         // Load all data of collection
-        print_r($sampleCollection->getData());
+        echo "<br>";
+        print_r($sampleCollection->addFieldToFilter('name','Ashish')->getData());
+
     }
 }

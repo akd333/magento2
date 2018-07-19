@@ -7,5 +7,6 @@ echo $block->socialShare();
 //  call helper class in phtml file
 echo '<br>';
 echo $this->helper('Social\Share\Helper\Data')->HelperFunc();
+//calling block created from backend
 echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('welcome')->toHtml();
 ?>

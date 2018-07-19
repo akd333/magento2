@@ -1,0 +1,8 @@
+<?php
+// get the list of all categories
+echo "<h2>Category List</h2>";
+$categories = $block->getCategoryCollection(); 
+foreach ($categories as $category) {
+    echo '<a href='.$category->getUrl().'>'.$category->getName().'</a>';
+    echo '<br />';
+}

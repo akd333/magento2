@@ -1,10 +1,6 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <head>
-        <css src="Social_Share::css/source/mycss.css"/>
-        <link src="Social_Share::js/myjs.js"/>
-    </head>
     <referenceContainer name="content">
-        <block class="Social\Share\Block\Display" name="sharedisplaycms" template="Social_Share::share.phtml" />
+        <block class="Social\Share\Block\GetAllProducts" name="social_index_getallproducts" template="Social_Share::products.phtml" />
     </referenceContainer>
 </page>

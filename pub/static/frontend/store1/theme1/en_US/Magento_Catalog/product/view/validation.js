@@ -1,1 +1,0 @@
-/var/www/html/magento2s/vendor/magento/module-catalog/view/frontend/web/product/view/validation.js
