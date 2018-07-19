@@ -87,3 +87,10 @@ sample.**
 *.md
 composer.json
 composer.lock
+*.yml
+*.ini
+app/autoload.php
+app/bootstrap.php
+app/functions.php
+app/etc
+app/design/frontend/default/modern/template
