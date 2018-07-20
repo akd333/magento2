@@ -57,10 +57,17 @@ class ModelTest extends Action
         // print_r($sampleCollection->addFieldToFilter('name','Ashish')->getData());
 
         //$collection = $sampleModel->getData();
-        echo "<br>";
-
         // and
-        echo "get datya of 10 and 14";
+
+        $second_tablE = $this->_resource->getTableName('newtable');
+         
+        $collection->getSelect()->joinLeft(array('second' => $second_table),
+                                               'new_table.id = second.id');
+        echo $collection->getSelect()->__toString();
+        exit();
+
+
+        echo "get data of 10 and 14";
         echo "<br>";
         print_r($sampleCollection->addFieldToFilter('entity_id', array('eq' => '14'))->addFieldToFilter('entity_id', array('eq' => '25'))->getData());
         echo "<br>";

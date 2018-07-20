@@ -11,6 +11,6 @@ class LogoutEventName implements \Magento\Framework\Event\ObserverInterface
         echo '<br>';
         echo 'Your logout time is  ';
         echo date('h:i:s a', time());;
-        exit;
+        //exit;
 	}
 }
