@@ -17,7 +17,6 @@ class ContactForm extends \Magento\Contact\Block\ContactForm
     }
     public function getFormAction()
     {   
-        echo "hello";
         return $this->getUrl('contact/index/post', ['_secure' => true]);
     }
 }
