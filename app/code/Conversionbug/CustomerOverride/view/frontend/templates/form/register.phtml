@@ -129,6 +129,17 @@
     <?php endif; ?>
     <fieldset class="fieldset create account" data-hasrequired="<?= $block->escapeHtmlAttr(__('* Required Fields')) ?>">
         <legend class="legend"><span><?= $block->escapeHtml(__('Sign-in Information')) ?></span></legend><br>
+        
+        <!--Custom field-->
+        <div class="field required">
+            <label for="mobile" class="label"><span>Mobile Number</span></label>
+            <div class="control">
+                <input type="tel" name="mobile" id="mobile" class="input-text">
+            </div>
+        </div>
+        <!--End of Custom field-->
+
+
         <div class="field required">
             <label for="email_address" class="label"><span><?= $block->escapeHtml(__('Email')) ?></span></label>
             <div class="control">
