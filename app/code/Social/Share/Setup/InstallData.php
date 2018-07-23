@@ -58,6 +58,7 @@ class InstallData implements InstallDataInterface
             'required' => false,
             'visible' => true,
             'user_defined' => true,
+            "frontend" => "",
             'position' =>999,
             'system' => 0,
         ]);
@@ -66,15 +67,16 @@ class InstallData implements InstallDataInterface
         ->addData([
             'attribute_set_id' => $attributeSetId,
             'attribute_group_id' => $attributeGroupId,
-			'used_in_forms' => ['adminhtml_customer',
+			'used_in_forms' => ['customer_account_create',
+                                'adminhtml_customer',
 								'adminhtml_customer_address',
-								'customer_account_create',
-								'customer_address_edit',
+                                'customer_address_edit',
+                                'customer_account_edit',
 								'customer_register_address',
 								'customer_address',
 								'checkout_register',
 								'adminhtml_checkout',
-								'customer_address_form'],
+								'customer_address_form']
         ]);
          
         $attribute->save();

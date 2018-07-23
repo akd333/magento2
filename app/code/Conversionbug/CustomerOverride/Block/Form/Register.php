@@ -3,7 +3,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Conversionbug\Override\Block\Form;
+namespace Conversionbug\CustomerOverride\Block\Form;
 
 use Magento\Customer\Model\AccountManagement;
 

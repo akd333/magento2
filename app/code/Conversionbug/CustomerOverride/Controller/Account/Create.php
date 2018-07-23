@@ -4,7 +4,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Conversionbug\Override\Controller\Account;
+namespace Conversionbug\CustomerOverride\Controller\Account;
 
 use Magento\Customer\Model\Registration;
 use Magento\Customer\Model\Session;

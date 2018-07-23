@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <referenceContainer name="customer.form.register">
-        <block class="Conversionbug\Override\Block\Form\Register" name="customer_form_registration_override" template="Conversionbug_Override::form/register.phtml" />
-    </referenceContainer>
-</page>
