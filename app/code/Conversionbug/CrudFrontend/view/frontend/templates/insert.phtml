@@ -1,7 +1,7 @@
 <!doctype HTML>
 <html>
 	<head>
-		<title>Registration Form</title>
+		<title>Suggestion Form</title>
 	</head>
 	<body>
 		<form action="<?php echo $block->getBaseUrl() ?><?php echo $block->getFormAction() ?>" method= "POST">
@@ -13,8 +13,12 @@
 			<label>Email</label></br>
 			<input type="email" name="email" placeholder="Please enter your email" class="input-text" id="email" required/></br>
             <label>Message</label></br>
-            <textarea name="message" placeholder="Please suggest your message here" class="input-text" required></textarea>
+            <textarea name="message" placeholder="Please suggest your message here" class="input-text" required></textarea></br>
     		<button type="submit" name="Submit" class="action submit primary">Submit Suggestion</button>
+		</form>
+		<form method="POST" action="<?php echo $block->getBaseUrl() ?>crud/index/view">
+			<br>
+			<button type="submit" name="Submit" class="action submit primary">View all suggestions</button>
 		</form>
 	</body>
 </html>

@@ -37,7 +37,7 @@
         <block class="Magento\Framework\View\Element\Html\Link\Current" name="your-link-name">
             <arguments>
                 <argument name="label" xsi:type="string">Suggest Us</argument>
-                <argument name="path" xsi:type="string">crud/index/index</argument>
+                <argument name="path" xsi:type="string">crud/insert/index</argument>
             </arguments>
         </block>
         </referenceBlock>

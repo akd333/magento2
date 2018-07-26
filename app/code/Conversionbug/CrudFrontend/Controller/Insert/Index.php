@@ -1,6 +1,6 @@
 <?php
   
-namespace Conversionbug\CrudFrontend\Controller\Index;
+namespace Conversionbug\CrudFrontend\Controller\Insert;
   
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\App\Action\Context;
