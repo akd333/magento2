@@ -1,0 +1,12 @@
+@webkulmodulename-icons-admin__font-name-path: 'Conversionbug_Adminmenu/fonts/modulename';
+@webkulmodulename-icons-admin__font-name : 'ModuleName';
+.lib-font-face(
+  @family-name:@webkulmodulename-icons-admin__font-name,
+  @font-path: @webkulmodulename-icons-admin__font-name-path,
+  @font-weight: normal,
+  @font-style: normal
+);
+.admin__menu .item-track_order.parent.level-0 > a:before {
+  font-family: @webkulmodulename-icons-admin__font-name;
+  content: "\0041";
+}
