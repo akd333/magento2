@@ -6,6 +6,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::THEME,
-    'frontend/Conversionbug/Theme1',
+    'frontend/Conversionbug/Noodlehouse',
     __DIR__
 );

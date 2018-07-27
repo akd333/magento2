@@ -35,7 +35,7 @@
         <referenceBlock name="footer_links">
         <block class="Magento\Framework\View\Element\Html\Link\Current" name="suggest-us-link">
             <arguments>
-                <argument name="label" xsi:type="string">Suggest Us</argument>
+                <argument name="label" xsi:type="string">Please Suggest Us</argument>
                 <argument name="path" xsi:type="string">crud/insert/index</argument>
             </arguments>
         </block>
