@@ -1,0 +1,22 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>Testimonial</title>
+	</head>
+	<body>
+		<form action="<?php echo $block->getBaseUrl() ?><?php echo $block->getFormAction() ?>" method= "POST">
+            <h1>Post a testimonial ...</h1>
+			<label>Name</label></br>
+			<input type="text" name="name" placeholder="Enter your name" class="input-text" id="name" required/></br>
+            <label>Title of testimonial</label></br>
+			<input type="text" name="title" placeholder="Testimonial title in one or two word" class="input-text" id="title" required/></br>
+            <label>Testimonial Message</label></br>
+            <textarea name="message" placeholder="Write testimonial" class="input-text" required></textarea></br>
+    		<button type="submit" name="Submit" class="action submit primary">Submit Testimonial</button>
+		</form>
+		<form method="POST" action="<?php echo $block->getBaseUrl() ?>testimobnial/view/index">
+			<br>
+			<button type="submit" name="Submit" class="action submit primary">View all testimonials</button>
+		</form>
+	</body>
+</html>

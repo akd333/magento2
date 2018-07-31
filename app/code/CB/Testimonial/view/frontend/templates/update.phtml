@@ -1,0 +1,25 @@
+<?php
+echo "<h2>Edit your suggestion here</h2>";
+$item = $block->getDataCollection();
+?>
+<html>
+	<head>
+		<title>Testimonial</title>
+	</head>
+	<body>
+		<form action="<?php echo $block->getBaseUrl() ?><?php echo $block->getFormAction() ?>" method= "POST">
+			<input type="hidden" name="id" value="<?php echo $item->getId(); ?>" class="input-text" id="id" required/></br>
+			<label>Name</label></br>
+			<input type="text" name="name" value="<?php echo $item->getName(); ?>" class="input-text" id="name" required/></br>
+            <label>Title of testimonial</label></br>
+			<input type="text" name="title" value="<?php echo $item->getTitle(); ?>" class="input-text" id="title" required/></br>
+            <label>Testimonial Message</label></br>
+            <textarea name="message"  class="input-text" required><?php echo $item->getMessage(); ?></textarea></br>
+    		<button type="submit" name="Submit" class="action submit primary">Update</button>
+		</form>
+		<form method="POST" action="<?php echo $block->getBaseUrl() ?>testimonial/view/index">
+			<br>
+			<button type="submit" name="Submit" class="action submit primary">Back</button>
+		</form>
+	</body>
+</html>

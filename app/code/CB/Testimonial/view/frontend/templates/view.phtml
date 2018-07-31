@@ -1,0 +1,30 @@
+<?php
+echo "<h2>TESTIMONIALS</h2>";
+$collection = $block->getDataCollection();
+?>
+
+<table>
+    <center>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Message</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($collection as $item): ?> 
+                <tr>
+                    <td><?php echo $item->getName(); ?></td>
+                    <td><?php echo $item->getTitle(); ?></td>
+                    <td><?php echo $item->getMessage(); ?></td>                        
+                    <td>
+                    <a href="<?php echo $block->getBaseUrl() ?>testimonial/update/index?id=<?php echo $item->getId(); ?>" style="color:green">[Update]</a>
+                    <a href="<?php echo $block->getBaseUrl() ?>testimonial/delete/index?id=<?php echo $item->getId(); ?>" onclick="return confirm('Are you sure want to delete?')" title="delete" style="color:red">[Delete]</a>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>crud
+    </center>
+</table>   

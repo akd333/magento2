@@ -39,6 +39,12 @@
                 <argument name="path" xsi:type="string">crud/insert/index</argument>
             </arguments>
         </block>
+        <block class="Magento\Framework\View\Element\Html\Link\Current" name="testimonial-link">
+            <arguments>
+                <argument name="label" xsi:type="string">Testimonial</argument>
+                <argument name="path" xsi:type="string">testimonial/index/index</argument>
+            </arguments>
+        </block>
         </referenceBlock>
         <referenceBlock name="report.bugs" remove="true"/>
         <referenceBlock name="copyright" remove="true"/> 
